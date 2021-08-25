@@ -1,2 +1,2 @@
 # jklee00.github.io
-My website
+This repository contains the framework for my personal website
