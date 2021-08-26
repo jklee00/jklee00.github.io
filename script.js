@@ -1,0 +1,1 @@
+console.log("Hey! You must be looking at the script or console. I'm currently learning how JavaScript works and plan on incorporating it into my website to make it look nicer, so it'll take a while until I add it into my skills list.");

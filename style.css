@@ -1,0 +1,113 @@
+/* Generally change body */
+body
+{
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #32302f;
+	color: #efefe1;
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+}
+
+/* Generally color other things too */
+a,footer,img
+{
+	color: #efefe1;
+}
+
+/* Make a tag change color when hovered */
+a:hover {
+color: #B65fcf;
+}
+
+/* Navigation unordered list item formatting */
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+/* Navigation unordered formatting */
+nav ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+  display: inline;
+}
+
+.home {
+	margin-left: 30px;
+}
+
+/* Generally move all sections */
+.container {
+	margin-left: 30px;
+	clear: both;
+}
+
+h1,h2,h3
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* About */
+.selfie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.abouttext {
+	margin-left: 15%;
+}
+
+/* Skills lists */
+.skill-list {
+	float:left ;
+	/* Currently formatting issues when window size changes, TO FIX; Make more centered*/
+	margin-left: 15%;
+
+}
+
+/* Resume */
+.resume{
+	display: block;
+	margin-left: 15%;
+	clear: both;
+}
+
+.resumetext{
+	margin-left: 15%;
+}
+
+/* Courses */
+.coursetext{
+	margin-left: 15%;
+}
+
+.progcourses {
+	float:left ;
+	margin-left: 15%;
+}
+
+/* Contact icons */
+.ikon{
+	margin-right: 4px;
+	text-decoration: none;
+}
+
+/* Footer */
+.footer{
+	padding-top:  2rem;
+	text-allign: center;
+}
+
+.footer_text{
+	font-size: var(--smaller-font-size);
+	text-align: center;
+	color: var(--text-color-light);
+	margin-top: var(--mb-3);
+}
+
+
