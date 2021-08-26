@@ -17,7 +17,14 @@ a,footer,img
 
 /* Make a tag change color when hovered */
 a:hover {
-color: #B65fcf;
+	/* For other browsers */
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* Make the color fade in */
+  	transition:.5s;
+	color: #B65fcf;
 }
 
 /* Navigation unordered list item formatting */
@@ -59,36 +66,35 @@ h1,h2,h3
 }
 
 .abouttext {
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 /* Skills lists */
 .skill-list {
 	float:left ;
-	/* Currently formatting issues when window size changes, TO FIX; Make more centered*/
-	margin-left: 15%;
+	margin-left: 10%;
 
 }
 
 /* Resume */
 .resume{
 	display: block;
-	margin-left: 15%;
+	margin-left: 10%;
 	clear: both;
 }
 
 .resumetext{
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 /* Courses */
 .coursetext{
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 .progcourses {
 	float:left ;
-	margin-left: 15%;
+	margin-left: 2%;
 }
 
 /* Contact icons */
@@ -109,5 +115,3 @@ h1,h2,h3
 	color: var(--text-color-light);
 	margin-top: var(--mb-3);
 }
-
-
