@@ -18,12 +18,24 @@ a,footer,img
 /* Make a tag change color when hovered */
 a:hover {
 	/* For other browsers */
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	/* Make the color fade in */
-  	transition:.5s;
+	-o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  /* Make the color fade in */
+  transition:.4s;
+	color: #B65fcf;
+}
+
+/* Make h3 tag change color when hovered */
+h3:hover {
+	/* For other browsers */
+	-o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  /* Make the color fade in */
+  transition:.4s;
 	color: #B65fcf;
 }
 
@@ -47,11 +59,12 @@ nav ul {
 
 /* Generally move all sections */
 .container {
-	margin-left: 30px;
+	margin: auto;
+  width: 95%;
 	clear: both;
 }
 
-h1,h2,h3
+h1,h2,h3,h4,h5,h6
 {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -72,7 +85,9 @@ h1,h2,h3
 /* Skills lists */
 .skill-list {
 	float:left ;
+	/* Currently formatting issues when window size changes, TO FIX; Make more centered*/
 	margin-left: 10%;
+
 
 }
 
