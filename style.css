@@ -60,7 +60,7 @@ nav ul {
 /* Generally move all sections */
 .container {
 	margin: auto;
-  width: 95%;
+  width: 65%;
 	clear: both;
 }
 
@@ -130,3 +130,5 @@ h1,h2,h3,h4,h5,h6
 	color: var(--text-color-light);
 	margin-top: var(--mb-3);
 }
+
+
